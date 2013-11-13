@@ -29,5 +29,10 @@ function wlCommonInit(){
 	
 	
 	// Common initialization code goes here
+	 $.mobile.page.prototype.options.domCache = true; 
+	 $.mobile.loadPage("cardiac.html", {});
+	 $.mobile.changePage("#cardiac", {reloadPage: true})
+	 
 
+	
 }
