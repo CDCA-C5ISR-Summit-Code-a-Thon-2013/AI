@@ -34,11 +34,6 @@
     <logging traceSpecification="com.worklight.*=debug=enabled"/>
     -->
 
-
-    <application context-root="/BlueButton" id="BlueButton" location="BlueButton.war" name="BlueButton" type="war">
-        <classloader commonLibraryRef="worklight-6.0.0,apps-common"/>
-    </application>
-
     <library id="apps-common">
         <fileset dir="C:\Workspaces\Codeathon\AI\WorklightServerConfig\shared\resources" includes="org.hsqldb.hsqldb_2.2.5.jar"/>
     </library>
@@ -50,4 +45,8 @@
     <applicationMonitor updateTrigger="mbean"/>
 
     <webApplication id="_MobileBrowserSimulator" location="_MobileBrowserSimulator.war" name="_MobileBrowserSimulator"/>
+
+    <application context-root="/BlueButton" id="BlueButton" location="BlueButton.war" name="BlueButton" type="war">
+        <classloader commonLibraryRef="worklight-6.0.0,apps-common"/>
+    </application>
 </server>

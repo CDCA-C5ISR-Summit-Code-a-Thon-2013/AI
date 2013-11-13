@@ -1,0 +1,70 @@
+
+/* Stylesheet content from include/header.css in folder common */
+.headerPort {	
+	display:block;
+	box-shadow:0 3px 5px rgba(0,0,0,0.5);
+	background:url(../images/bdybg.jpg);
+	position:fixed;
+	width:100%;
+	z-index:1000;
+}
+.headerBlk {
+	/*width:100%;
+	max-width:976px;*/
+	margin:0px;
+	padding:10px 0 0 0;
+}
+.headerBlk .logo {
+	float:left;
+	padding:0 0 0 10px;
+}
+
+.stripeYellw{
+	background:#ffd352;
+	height:51px;
+	margin:10px 0 0 0;
+	position:relative;
+}
+.stripeYellw .title{
+	position:absolute;
+	width:100%;
+	line-height:51px;
+	text-align:center;
+	z-index:0;
+	font-size:25px;
+	color:#17325f;
+}
+.stripeYellw .iconShare a{
+	float:right;
+	background:url(../images/icon_share.png) no-repeat 0 0;
+	text-indent:-9999px;
+	width:30px;
+	height:33px;
+	background-size:30px 33px;
+	margin:10px 20px 0 0;
+	position:relative;
+	z-index:5;
+}
+.stripeYellw .iconCapture a{
+	float:right;
+	background:url(../images/icon_capture.png) no-repeat 0 0;
+	text-indent:-9999px;
+	width:30px;
+	height:31px;
+	background-size:30px 31px;
+	margin:10px 25px 0 0;
+	position:relative;
+	z-index:5;
+}
+.iconBack a{
+	background:url(../images/icon_back.png) no-repeat 0 0;
+	float:left;
+	text-indent:-9999px;
+	width:18px;
+	height:32px;
+	background-size:18px 32px;
+	margin:10px 0 0 20px;
+	position:relative;
+	z-index:5;
+}
+

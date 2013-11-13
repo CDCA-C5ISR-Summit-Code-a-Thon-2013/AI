@@ -1,0 +1,439 @@
+
+/* Stylesheet content from include/page.css in folder common */
+.charImg {
+	max-width:720px;
+	width:100%;
+}
+.pieCharImg {
+	max-width:603px;
+	width:100%;
+}
+/* Landing Page */
+.landingPg {
+}
+.proflBlk {
+	padding:20px;
+}
+.proflBlk .profPic {
+	float:left;
+}
+.proflBlk .profName {
+	float:left;
+	margin:0 0 0 20px;
+	font-size:25px;
+	color:#17325f;
+}
+.profName span {
+	display:block;
+	font-size:35px;
+}
+.landingPg .greyLinkBlk {
+	border-top:2px solid #b9b9b9;
+	border-bottom:2px solid #b9b9b9;
+	padding:10px;
+	background:#efefef;
+}
+.greyLinkBlk .greyLink a {
+	width:31.3%;
+	float:left;
+	background:#c64747;
+	margin:0 10px 0 0;
+	text-align:center;
+	line-height:50px;
+	color:#fff;
+	font-size:25px;
+}
+.greyLinkBlk .bmi a {
+	background:#388e54 !important
+}
+.greyLinkBlk .bldSugar a {
+	background:#ead208 !important
+}
+.landNav {
+	margin:30px auto 0 auto;
+	padding:0 20px;
+	width:95%;
+}
+.landNav li {
+	display:inline-block;
+	margin:0 5px 10px 0;/*width:32.5%;*/	
+}
+.landNav li a {
+	width:100%;
+	line-height:168px;
+	display:inline-block;
+	text-align:center;
+	padding:0px 0 0 0;
+	text-indent:-9999px;
+}
+.landNav li.emerInf a {
+	background:url(../images/land_emergency.jpg) no-repeat 0 0;
+	width:300px;
+	height:185px;
+	background-size:300px 185px;
+}
+.landNav li.medication a {
+	background:url(../images/land_medication.jpg) no-repeat 0 0;
+	width:300px;
+	height:185px;
+	background-size:300px 185px;
+}
+.landNav li.labVacancy a {
+	background:url(../images/land_lab_vacancy.jpg) no-repeat 0 0;
+	width:300px;
+	height:185px;
+	background-size:300px 185px;
+}
+.landNav li.onGoing a {
+	background:url(../images/land_onGoing.jpg) no-repeat 0 0;
+	width:300px;
+	height:185px;
+	background-size:300px 185px;
+}
+.landNav li.appointment a {
+	background:url(../images/land_appointment.jpg) no-repeat 0 0;
+	width:300px;
+	height:185px;
+	background-size:300px 185px;
+}
+.landNav li.logout a {
+	background:url(../images/land_logout.jpg) no-repeat 0 0;
+	width:300px;
+	height:185px;
+	background-size:300px 185px;
+}
+.landNav li:nath-child(3n+1) {
+ margin-right:0px;
+}
+/* Emergency Page */
+.emergengyPg {
+	padding:10px;
+}
+.emergengyPg .whtWidget {
+	background:white;
+	box-shadow:2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+	padding:15px;
+	float:left;
+	width:49%;
+	color:#4c4c4c;
+	font-size:20px;
+	margin:0 0 15px;
+}
+.emergengyPg .whtWidget:nth-child(2n+1) {
+ float:right;
+}
+.whtWidget h2 {
+	float:left;
+	color:#1f3b6a;
+	font-size:28px;
+}
+.whtWidget .date {
+	float:right;
+	color:#1f3b6a;
+	font-size:21px;
+	margin:8px 0 0 0;
+}
+.whtWidget .list {
+	margin:10px 0 0 0;
+}
+.list li {
+	border-bottom:1px solid #b9b9b9;
+	line-height:45px;
+}
+.list li .value {
+	color:#1f3b6a;
+	float:right;
+}
+/* Emergency Page */
+.labVaccinPg {
+	padding:10px;
+}
+.labVaccinPg .whtWidget {
+	background:white;
+	box-shadow:2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+	padding:15px;
+	float:left;
+	width:49%;
+	color:#4c4c4c;
+	font-size:20px;
+	margin:0 0 15px;
+}
+.labVaccinPg .whtWidget:nth-child(2n+1) {
+ float:right;
+}
+.whtWidget h2 {
+	float:left;
+	color:#1f3b6a;
+	font-size:28px;
+}
+.whtWidget .date {
+	float:right;
+	color:#c81d1d;
+	font-size:21px;
+	margin:8px 0 0 0;
+}
+.whtWidget .list {
+	margin:10px 0 0 0;
+}
+.list li {
+	border-bottom:1px solid #b9b9b9;
+	line-height:50px;
+}
+.list li .title {
+	width:55%;
+	float:left;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	word-wrap:break-word;
+}
+.list li .reportComp {
+	color:#fff;
+	float:right;
+	background:-moz-linear-gradient(top, #039e03, #008c00);
+	background:-webkit-linear-gradient(top, #039e03, #008c00);
+	background:-khtml-linear-gradient(top, #039e03, #008c00);
+	line-height:37px;
+	padding:0 10px;
+	border-radius:5px;
+	margin-right:10px;
+	margin-top:7px;
+}
+.list li .reportRemain {
+	color:#fff;
+	float:right;
+	background:-moz-linear-gradient(top, #cc0000, #a90000);
+	background:-webkit-linear-gradient(top, #cc0000, #a90000);
+	background:-khtml-linear-gradient(top, #cc0000, #a90000);
+	line-height:37px;
+	padding:0 5px;
+	border-radius:5px;
+	margin-right:10px;
+	margin-top:7px;
+}
+/* Medication Page */
+.medicationPg {
+	padding:10px;
+}
+.medicationPg h1 {
+	color:#399415;
+	float:left;
+	font-size:30px;
+}
+.medicationPg .btnDrug a {
+	background:#e37048;
+	float:right;
+	margin:0 15px 15px 0;
+	color:#fff;
+	padding:0 15px;
+	line-height:38px;
+	font-size:22px;
+}
+.medicationPg .whtWidget {
+	background:white;
+	box-shadow:2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+	padding:15px;
+	float:left;
+	width:49%;
+	color:#4c4c4c;
+	font-size:20px;
+	margin:0 0 15px;
+}
+.medicationPg .whtWidget:nth-child(2n+1) {
+ float:right;
+}
+.medicationPg .whtWidget h2 {
+	color:#1f3b6a;
+	font-size:28px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	word-wrap:break-word;
+	width:98%
+}
+.whtWidget .value {
+	float:right;
+	color:#c81d1d;
+	font-size:20px;
+}
+.whtWidget .list {
+	margin:10px 0 0 0;
+}
+.list li {
+	border-bottom:1px solid #b9b9b9;
+	line-height:50px;
+}
+.list li .title {
+	width:55%;
+	float:left;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	word-wrap:break-word;
+}
+.list li .reportComp {
+	color:#fff;
+	float:right;
+	background:-moz-linear-gradient(top, #039e03, #008c00);
+	background:-webkit-linear-gradient(top, #039e03, #008c00);
+	background:-khtml-linear-gradient(top, #039e03, #008c00);
+	line-height:37px;
+	padding:0 10px;
+	border-radius:5px;
+	margin-right:10px;
+	margin-top:7px;
+}
+.list li .reportRemain {
+	color:#fff;
+	float:right;
+	background:-moz-linear-gradient(top, #cc0000, #a90000);
+	background:-webkit-linear-gradient(top, #cc0000, #a90000);
+	background:-khtml-linear-gradient(top, #cc0000, #a90000);
+	line-height:37px;
+	padding:0 5px;
+	border-radius:5px;
+	margin-right:10px;
+	margin-top:7px;
+}
+.drugIntrPg {
+	padding:15px;
+}
+.drugIntrPg .whtWidget {
+	background:white;
+	box-shadow:2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+	padding:20px;
+	color:#4c4c4c;
+	font-size:20px;
+	margin:0 0 15px;
+}
+ @media only screen and (min-width: 641px) and (max-width: 980px) {
+ .landNav li {
+ display:inline-block;
+ margin:0 5px 10px 0;
+}
+ .landNav {
+ margin:30px auto 0 auto;
+ padding:0 20px;
+ width:80%;
+}
+ .list li .title {
+ width:40%;
+}
+ .landNav li.emerInf a {
+ background:url(../images/land_emergency.jpg) no-repeat 0 0;
+ width:270px;
+ height:155px;
+ background-size:270px 155px;
+}
+.landNav li.medication a {
+ background:url(../images/land_medication.jpg) no-repeat 0 0;
+ width:270px;
+ height:155px;
+ background-size:270px 155px;
+}
+.landNav li.labVacancy a {
+ background:url(../images/land_lab_vacancy.jpg) no-repeat 0 0;
+ width:270px;
+ height:155px;
+ background-size:270px 155px;
+}
+.landNav li.onGoing a {
+ background:url(../images/land_onGoing.jpg) no-repeat 0 0;
+ width:270px;
+ height:155px;
+ background-size:270px 155px;
+}
+.landNav li.appointment a {
+ background:url(../images/land_appointment.jpg) no-repeat 0 0;
+ width:270px;
+ height:155px;
+ background-size:270px 155px;
+}
+.landNav li.logout a {
+ background:url(../images/land_logout.jpg) no-repeat 0 0;
+ width:270px;
+ height:155px;
+ background-size:270px 155px;
+}
+}
+ @media only screen and (min-width: 641px) and (max-width: 1020px) {
+ .landNav {
+ margin:30px auto 0 auto;
+ padding:0 20px;
+ width:91%;
+}
+}
+ @media only screen and (min-width: 0px) and (max-width: 641px) {
+ .landNav li {
+ display:inline-block;
+ margin:0 5px 10px 0;
+ width:48%;
+}
+ .emergengyPg .whtWidget {
+ background:white;
+ box-shadow:2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+ padding:15px;
+ float:none;
+ width:100%;
+ display:block;
+ color:#4c4c4c;
+ font-size:20px;
+ margin:0 0 15px;
+}
+ .labVaccinPg .whtWidget {
+ background:white;
+ box-shadow:2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+ padding:15px;
+ float:none;
+ width:100%;
+ color:#4c4c4c;
+ font-size:20px;
+ margin:0 0 15px;
+}
+ .medicationPg .whtWidget {
+ background:white;
+ box-shadow:2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+ padding:15px;
+ float:none;
+ width:100%;
+ color:#4c4c4c;
+ font-size:20px;
+ margin:0 0 15px;
+}
+ .landNav li.emerInf a {
+ background:url(../images/land_emergency.jpg) no-repeat 0 0;
+ width:250px;
+ height:135px;
+ background-size:250px 135px;
+}
+.landNav li.medication a {
+ background:url(../images/land_medication.jpg) no-repeat 0 0;
+ width:250px;
+ height:135px;
+ background-size:250px 135px;
+}
+.landNav li.labVacancy a {
+ background:url(../images/land_lab_vacancy.jpg) no-repeat 0 0;
+ width:250px;
+ height:135px;
+ background-size:250px 135px;
+}
+.landNav li.onGoing a {
+ background:url(../images/land_onGoing.jpg) no-repeat 0 0;
+ width:250px;
+ height:135px;
+ background-size:250px 135px;
+}
+.landNav li.appointment a {
+ background:url(../images/land_appointment.jpg) no-repeat 0 0;
+ width:250px;
+ height:135px;
+ background-size:250px 135px;
+}
+.landNav li.logout a {
+ background:url(../images/land_logout.jpg) no-repeat 0 0;
+ width:250px;
+ height:135px;
+ background-size:250px 135px;
+}
+}

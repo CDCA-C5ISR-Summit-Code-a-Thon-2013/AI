@@ -1,0 +1,14 @@
+
+/* Stylesheet content from include/footer.css in folder common */
+.footerPort {
+	height:44px;
+	background:#193b67;
+	box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.5);
+}
+.footerPort .footerBlk {
+	margin:0 20px;
+	color:#476790;
+	text-align:center;
+	line-height:44px;
+}
+
