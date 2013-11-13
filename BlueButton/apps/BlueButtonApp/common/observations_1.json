@@ -1727,7 +1727,7 @@
                 },
                 "valueQuantity" : {
                   "value" : {
-                    "value" : "4.0"
+                    "value" : "7.0"
                   },
                   "units" : {
                     "value" : "mmol/L"
@@ -2145,7 +2145,7 @@
                 },
                 "valueQuantity" : {
                   "value" : {
-                    "value" : "2.8"
+                    "value" : "4.4"
                   },
                   "units" : {
                     "value" : "mg/L"
@@ -4094,10 +4094,10 @@
                 },
                 "valueQuantity" : {
                   "value" : {
-                    "value" : "1.0"
+                    "value" : "59.0"
                   },
                   "units" : {
-                    "value" : "mmol/L"
+                    "value" : "mg/dL"
                   }
                 },
                 "status" : {
