@@ -64,3 +64,4 @@ os = Windows 7 (6.1; x86) (en_US)
 [11/13/13 10:09:50:279 EST] 0000001a com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [BlueButton] [/BlueButton] [ResteasyConsoleServlet]: Initialization successful.
 [11/13/13 10:09:51:385 EST] 0000001a com.worklight.common.util.GeneralUtil                        I FWLSE2001I: Detected more than one IP address. Using 169.254.225.48 as the public IP address of the Worklight Server. You can set a different IP address in worklight.properties. [project BlueButton]
 [11/13/13 10:09:51:684 EST] 0000001a com.worklight.gadgets.bean.WidgetServiceBean                 I FWLSE0085I: Deployed app 'BlueButtonEHR-common' successfully on Worklight Server [project BlueButton]
+[11/13/13 10:37:21:197 EST] 0000001a com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [BlueButton] [/BlueButton] [PreviewServlet]: Initialization successful.
