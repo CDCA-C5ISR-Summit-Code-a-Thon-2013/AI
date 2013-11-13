@@ -31,8 +31,11 @@ function wlCommonInit(){
 	
 	
 	// Common initialization code goes here
-
 	
+	
+	$.mobile.page.prototype.options.domCache = true;	
+	$.mobile.loadPage("app-pages/Appointments.html", {});
+
 }
 
 /* JavaScript content from js/BlueButtonEHR.js in folder android */

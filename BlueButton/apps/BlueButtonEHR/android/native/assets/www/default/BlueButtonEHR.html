@@ -10,6 +10,7 @@
         <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
         <link href="jqueryMobile/jquery.mobile-1.3.1.css" rel="stylesheet">
         <link href="css/BlueButtonEHR.css" rel="stylesheet">
+        <link href="css/jw-jqm-cal.css" rel="stylesheet">
         <script>
 		// Define WL namespace.
 		var WL = WL ? WL : {};
@@ -64,14 +65,29 @@
     		<script src="jqueryMobile/jquery.mobile-1.3.1.js"></script>
     </head>
     <body id="content" style="display: none;">
-        <div data-role="page" id="page">
+        <div data-role="page" id="homePage">
+            <div data-position="fixed" data-role="header" id="header">
+                <h3>Placeholder</h3>
+            </div>
             <div data-role="content" style="padding: 15px">
-    				<!--application UI goes here-->
-    				BlueButtonEHR - test
-    			</div>
+                <ul data-inset="true" data-role="listview" id="listview">
+                    <li data-role="list-divider" id="divider">Divider</li>
+                    <li id="appointments">
+                        <a href="app-pages/Appointments.html">Appointments</a>
+                    </li>
+                    <li id="listitem0">
+                        <a href="#">Item</a>
+                    </li>
+                    <li id="listitem1">
+                        <a href="#">Item</a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <script src="js/initOptions.js"></script>
     		<script src="js/BlueButtonEHR.js"></script>
     		<script src="js/messages.js"></script>
+    		<script src="js/jw-jqm-cal.js"></script>
+    		<script src="js/Appointments.js"></script>
     </body>
 </html>
