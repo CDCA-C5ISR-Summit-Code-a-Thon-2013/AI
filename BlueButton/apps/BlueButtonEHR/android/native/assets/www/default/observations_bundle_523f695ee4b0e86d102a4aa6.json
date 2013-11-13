@@ -1,0 +1,303 @@
+{
+  "feed": {
+    "title": "FHIR Atom Feed",
+    "id": "https://api.fhir.me/observation/search?subject=patient%2F%40523f695ee4b0e86d102a4aa6&name%3Aanyns=30522-7%2C14647-2%2C2093-3%2C2085-9&_count=50",
+    "link": [
+      {
+        "rel": "self",
+        "href": "https://api.fhir.me/observation/search?subject=patient%2F%40523f695ee4b0e86d102a4aa6&name%3Aanyns=30522-7%2C14647-2%2C2093-3%2C2085-9&_count=50"
+      }
+    ],
+    "updated": "2013-11-13T17:13:31.998Z",
+    "author": [
+      {
+        "name": "groovy.config.atom.author-name",
+        "uri": "groovy.config.atom.author-uri"
+      }
+    ],
+    "entry": [
+      {
+        "title": "observation/@523f695ee4b0e86d102a4b83",
+        "id": "https://api.fhir.me/observation/@523f695ee4b0e86d102a4b83",
+        "updated": "2013-11-13T17:13:31.998Z",
+        "content": {
+          "Observation": {
+            "text": {
+              "status": {
+                "value": "generated"
+              },
+              "div": "<div>2008-07-10: HDLc SerPl-mCnc = 59 mg/dL</div>"
+            },
+            "name": {
+              "coding": [
+                {
+                  "system": {
+                    "value": "http://loinc.org"
+                  },
+                  "code": {
+                    "value": "2085-9"
+                  },
+                  "display": {
+                    "value": "HDLc SerPl-mCnc"
+                  }
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": {
+                "value": "59.0"
+              },
+              "units": {
+                "value": "mg/dL"
+              },
+              "code": {
+                "value": "mg/dL"
+              }
+            },
+            "appliesDateTime": {
+              "value": "2008-07-10"
+            },
+            "status": {
+              "value": "final"
+            },
+            "subject": {
+              "type": {
+                "value": "Patient"
+              },
+              "reference": {
+                "value": "patient/@523f695ee4b0e86d102a4aa6"
+              }
+            },
+            "referenceRange": [
+              {
+                "meaning": {
+                  "text": {
+                    "value": "Normal Range"
+                  }
+                },
+                "rangeRange": {
+                  "low": {
+                    "value": {
+                      "value": "0.0"
+                    },
+                    "units": {
+                      "value": "mg/dL"
+                    },
+                    "system": {
+                      "value": "http://unitsofmeasure.org"
+                    },
+                    "code": {
+                      "value": "mg/dL"
+                    }
+                  },
+                  "high": {
+                    "value": {
+                      "value": "0.0"
+                    },
+                    "units": {
+                      "value": "mg/dL"
+                    },
+                    "system": {
+                      "value": "http://unitsofmeasure.org"
+                    },
+                    "code": {
+                      "value": "mg/dL"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "title": "observation/@523f695ee4b0e86d102a4ba8",
+        "id": "https://api.fhir.me/observation/@523f695ee4b0e86d102a4ba8",
+        "updated": "2013-11-13T17:13:31.998Z",
+        "content": {
+          "Observation": {
+            "text": {
+              "status": {
+                "value": "generated"
+              },
+              "div": "<div>2008-07-10: Cholest SerPl-mCnc = 160 mg/dL</div>"
+            },
+            "name": {
+              "coding": [
+                {
+                  "system": {
+                    "value": "http://loinc.org"
+                  },
+                  "code": {
+                    "value": "2093-3"
+                  },
+                  "display": {
+                    "value": "Cholest SerPl-mCnc"
+                  }
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": {
+                "value": "160.0"
+              },
+              "units": {
+                "value": "mg/dL"
+              },
+              "code": {
+                "value": "mg/dL"
+              }
+            },
+            "appliesDateTime": {
+              "value": "2008-07-10"
+            },
+            "status": {
+              "value": "final"
+            },
+            "subject": {
+              "type": {
+                "value": "Patient"
+              },
+              "reference": {
+                "value": "patient/@523f695ee4b0e86d102a4aa6"
+              }
+            },
+            "referenceRange": [
+              {
+                "meaning": {
+                  "text": {
+                    "value": "Normal Range"
+                  }
+                },
+                "rangeRange": {
+                  "low": {
+                    "value": {
+                      "value": "0.0"
+                    },
+                    "units": {
+                      "value": "mg/dL"
+                    },
+                    "system": {
+                      "value": "http://unitsofmeasure.org"
+                    },
+                    "code": {
+                      "value": "mg/dL"
+                    }
+                  },
+                  "high": {
+                    "value": {
+                      "value": "200.0"
+                    },
+                    "units": {
+                      "value": "mg/dL"
+                    },
+                    "system": {
+                      "value": "http://unitsofmeasure.org"
+                    },
+                    "code": {
+                      "value": "mg/dL"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "title": "observation/@523f695ee4b0e86d102a4bac",
+        "id": "https://api.fhir.me/observation/@523f695ee4b0e86d102a4bac",
+        "updated": "2013-11-13T17:13:31.998Z",
+        "content": {
+          "Observation": {
+            "text": {
+              "status": {
+                "value": "generated"
+              },
+              "div": "<div>2008-07-10: CRP SerPl HS-mCnc = 4.4 mg/L</div>"
+            },
+            "name": {
+              "coding": [
+                {
+                  "system": {
+                    "value": "http://loinc.org"
+                  },
+                  "code": {
+                    "value": "30522-7"
+                  },
+                  "display": {
+                    "value": "CRP SerPl HS-mCnc"
+                  }
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": {
+                "value": "4.4"
+              },
+              "units": {
+                "value": "mg/L"
+              },
+              "code": {
+                "value": "mg/L"
+              }
+            },
+            "appliesDateTime": {
+              "value": "2008-07-10"
+            },
+            "status": {
+              "value": "final"
+            },
+            "subject": {
+              "type": {
+                "value": "Patient"
+              },
+              "reference": {
+                "value": "patient/@523f695ee4b0e86d102a4aa6"
+              }
+            },
+            "referenceRange": [
+              {
+                "meaning": {
+                  "text": {
+                    "value": "Normal Range"
+                  }
+                },
+                "rangeRange": {
+                  "low": {
+                    "value": {
+                      "value": "0.0"
+                    },
+                    "units": {
+                      "value": "mg/L"
+                    },
+                    "system": {
+                      "value": "http://unitsofmeasure.org"
+                    },
+                    "code": {
+                      "value": "mg/L"
+                    }
+                  },
+                  "high": {
+                    "value": {
+                      "value": "3.0"
+                    },
+                    "units": {
+                      "value": "mg/L"
+                    },
+                    "system": {
+                      "value": "http://unitsofmeasure.org"
+                    },
+                    "code": {
+                      "value": "mg/L"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "Patient": {
+    "text": {
+      "status": {
+        "value": "generated"
+      },
+      "div": "<div>\n        \n            <p>Daniel X. Adams</p>\n      \n          </div>"
+    },
+    "identifier": [
+      {
+        "use": {
+          "value": "usual"
+        },
+        "label": {
+          "value": "SMART Hospiptal MRN"
+        },
+        "system": {
+          "value": "urn:oid:0.1.2.3.4.5.6.7"
+        },
+        "key": {
+          "value": "1288992"
+        }
+      }
+    ],
+    "name": [
+      {
+        "use": {
+          "value": "official"
+        },
+        "family": [
+          {
+            "value": "Adams"
+          }
+        ],
+        "given": [
+          {
+            "value": "Daniel"
+          },
+          {
+            "value": "X."
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": {
+          "value": "phone"
+        },
+        "use": {
+          "value": "home"
+        }
+      },
+      {
+        "system": {
+          "value": "phone"
+        },
+        "use": {
+          "value": "mobile"
+        }
+      },
+      {
+        "system": {
+          "value": "email"
+        },
+        "value": {
+          "value": "daniel.adams@example.com"
+        }
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": {
+            "value": "http://hl7.org/fhir/v3/AdministrativeGender"
+          },
+          "code": {
+            "value": "M"
+          },
+          "display": {
+            "value": "Male"
+          }
+        }
+      ]
+    },
+    "birthDate": {
+      "value": "1925-12-23"
+    },
+    "address": [
+      {
+        "use": {
+          "value": "home"
+        },
+        "line": [
+          {
+            "value": "1 Hill AveApt 14"
+          }
+        ],
+        "city": {
+          "value": "Tulsa"
+        },
+        "state": {
+          "value": "OK"
+        },
+        "zip": {
+          "value": "74117"
+        },
+        "country": {
+          "value": "USA"
+        }
+      }
+    ],
+    "active": {
+      "value": true
+    }
+  }
+}
