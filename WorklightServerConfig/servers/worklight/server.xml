@@ -35,19 +35,19 @@
     -->
 
 
-    <applicationMonitor updateTrigger="mbean"/>
-
-    <webApplication id="_MobileBrowserSimulator" location="_MobileBrowserSimulator.war" name="_MobileBrowserSimulator"/>
-
-    <library id="apps-common">
-        <fileset dir="C:\workspaces\codeathon\AI\WorklightServerConfig\shared\resources" includes="org.hsqldb.hsqldb_2.2.5.jar"/>
-    </library>
-
-    <library id="worklight-6.0.0">
-        <fileset dir="C:\workspaces\codeathon\AI\WorklightServerConfig\shared\resources" includes="worklight-jee-library-6.0.0.jar"/>
-    </library>
-
     <application context-root="/BlueButton" id="BlueButton" location="BlueButton.war" name="BlueButton" type="war">
         <classloader commonLibraryRef="worklight-6.0.0,apps-common"/>
     </application>
+
+    <library id="apps-common">
+        <fileset dir="C:\Workspaces\Codeathon\AI\WorklightServerConfig\shared\resources" includes="org.hsqldb.hsqldb_2.2.5.jar"/>
+    </library>
+
+    <library id="worklight-6.0.0">
+        <fileset dir="C:\Workspaces\Codeathon\AI\WorklightServerConfig\shared\resources" includes="worklight-jee-library-6.0.0.jar"/>
+    </library>
+
+    <applicationMonitor updateTrigger="mbean"/>
+
+    <webApplication id="_MobileBrowserSimulator" location="_MobileBrowserSimulator.war" name="_MobileBrowserSimulator"/>
 </server>
