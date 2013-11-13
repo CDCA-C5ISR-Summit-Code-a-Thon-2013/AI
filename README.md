@@ -1,8 +1,12 @@
-AI
+BlueButton App
 ==
 
-This is the to-be-determined mobile app for the IBM/Agilex [Codeathon](http://www.charlestondca.org/codeathon) team.
+This is the BlueButton EHR app from the IBM/Agilex [Codeathon](http://www.charlestondca.org/codeathon) team.
 
+
+Data Source
+==
+[VA BlueButton Data](https://github.com/department-of-veterans-affairs/Tech-Jam-2013---IBM-Federal/tree/master)
 
 License
 ==
