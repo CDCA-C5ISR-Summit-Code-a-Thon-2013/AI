@@ -1,0 +1,16 @@
+#Deployment data.
+#Wed Nov 13 10:09:50 EST 2013
+app.login.displaytype=POPUP
+app.displayname=BlueButtonEHR
+platform.version=6.0.0
+app.author.name=application's author
+app.author.email=application author's e-mail
+app.version=1.0
+app.environment=common
+app.unpacked.size.default=1392756
+app.description=BlueButtonEHR
+app.mainfile=BlueButtonEHR.html
+app.login.popup.width=920
+app.checksum.default=2308797294
+app.login.popup.height=610
+app.id=BlueButtonEHR
