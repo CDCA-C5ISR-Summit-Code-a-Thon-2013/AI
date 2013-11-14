@@ -33,7 +33,7 @@
         <key>Key</key>
         <string>serverURL</string>
         <key>DefaultValue</key>
-        <string>http://192.168.138.1:10080/BlueButton/</string>
+        <string>http://192.168.0.142:10080/BlueButton/</string>
         <key>KeyboardType</key>
         <string>Alphabet</string>
       </dict>

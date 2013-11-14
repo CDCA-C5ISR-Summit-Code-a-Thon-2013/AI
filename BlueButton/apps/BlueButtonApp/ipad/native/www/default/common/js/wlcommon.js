@@ -260,10 +260,6 @@ WL.BusyIndicator = WLJSX.Class.create({
 	*/
 
 	initialize : function(containerId, options) {
-		
-		// Defect 17303. Ensure that Busy Indicator shows language picked from device or set by user.
-		WL.Utils.setLocalization();
-		
 		this.__busyOverlay = false;
 		this.__containerElement = null;
 		
@@ -323,6 +319,10 @@ WL.BusyIndicator = WLJSX.Class.create({
 		if (this.isVisible()) {
 			return;
 		}
+
+		//changes made. Defect 17303. Ensure that Busy Indicator shows language picked from device or set by user.
+    	WL.Utils.setLocalization();
+    	this.__options.text=WL.ClientMessages.loading;
 		
 		if (WLJSX.Object.isUndefined(this.__busyOverlay) || this.__busyOverlay === false) {
 			var overlay = {
@@ -622,9 +622,6 @@ WL.BusyIndicator = WLJSX.Class.create({
 	
 		this.__visible = false;
 		
-		// Defect 17303. Ensure that Busy Indicator shows language picked from device or set by user.
-		WL.Utils.setLocalization();
-		
 		this.__options = {
 		    text : WL.ClientMessages.loading,
 		    fullScreen : false
@@ -644,6 +641,10 @@ WL.BusyIndicator = WLJSX.Class.create({
 		if (this.__options.textColor && this.__options.textColor.indexOf("#") == 0) {
 		    this.__options.textColor = this.__options.textColor.substr(1);
 		}
+		
+		//changes made. Defect 17303. Ensure that Busy Indicator shows language picked from device or set by user.
+    	WL.Utils.setLocalization();
+    	this.__options.text=WL.ClientMessages.loading;
 		
 		cordova.exec(null, null, "NotificationEx", "loadingStart", [{
 		    labelText : this.__options.text,

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BD32EA18-05B4-4F8C-B008-50974B19F4E5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BlueButtonBlueButtonAppIpad</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>36427E61-AA47-4A85-86C3-2935111283FC</key>
+		<string>https://github.com/CDCA-C5ISR-Summit-Code-a-Thon-2013/AI</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BlueButton/apps/BlueButtonApp/ipad/native/BlueButtonBlueButtonAppIpad.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>36427E61-AA47-4A85-86C3-2935111283FC</key>
+		<string>../../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/CDCA-C5ISR-Summit-Code-a-Thon-2013/AI</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>36427E61-AA47-4A85-86C3-2935111283FC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>36427E61-AA47-4A85-86C3-2935111283FC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AI</string>
+		</dict>
+	</array>
+</dict>
+</plist>
