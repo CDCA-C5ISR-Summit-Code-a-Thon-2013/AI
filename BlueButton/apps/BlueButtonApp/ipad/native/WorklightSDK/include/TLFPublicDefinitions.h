@@ -103,30 +103,30 @@ extern NSString* kTLFMobileStateEvent;
 
 @protocol TLFCustomControlDelegate <NSObject>
 @optional
-- (BOOL)isTLFCustomControlHidden;
-- (NSInteger)tagTLFCustomControl;
-- (id)parentTLFCustomControl;
-- (CGRect)frameTLFCustomControl;
-- (UIColor*)colorTLFCustomControl;
-- (UIColor*)backgroundColorTLFCustomControl;
+- (BOOL)isControlHidden;
+- (NSInteger)controlTag;
+- (id)controlParent;
+- (CGRect)controlFrame;
+- (UIColor*)controlColor;
+- (UIColor*)controlBackgroundColor;
 
-- (NSString*)textTLFCustomControl;
-- (BOOL)isTLFCustomControlTextHidden;
-- (CGRect)textFrameTLFCustomControl;
-- (UIColor*)textTLFCustomControlColor;
-- (UIColor*)textTLFCustomControlBackgroundColor;
+- (NSString*)controlText;
+- (BOOL)isTextHidden;
+- (CGRect)textFrame;
+- (UIColor*)textColor;
+- (UIColor*)textBackgroundColor;
 
-- (UIImage*)imageTLFCustomControl;
-- (BOOL)isTLFCustomControlImageHidden;
-- (CGRect)imageFrameTLFCustomControl;
-- (UIColor*)imageOpacityTLFCustomControl;
-- (UIColor*)imageBackgroundColorTLFCustomControl;
+- (UIImage*)controlImage;
+- (BOOL)isImageHidden;
+- (CGRect)imageFrame;
+- (UIColor*)imageOpacity;
+- (UIColor*)imageBackgroundColor;
 
-//- (UIImage*)controlBackgroundImageTLFCustomControl;
+//- (UIImage*)controlBackgroundImage;
 @end
 
 @protocol TLFCustomControlDelegateX <NSObject>
 @optional
-- (NSArray*) imageViewsTLFCustomControl;
-- (NSArray*) controlsTLFCustomControl;
+- (NSArray*) imageViews;
+- (NSArray*) controls;
 @end

@@ -59,20 +59,24 @@
   <body style="margin: none;">
     <div data-role="page" id="cardiac">
 
-    	<div data-role="header">
-    		<h1>Cardiac Risk</h1>
-    	</div><!-- /header -->
+      <!-- Header Portion Start -->
+      <div class="headerPort">
+        <div class="headerBlk">
+          <div class="stripeYellw">
+            <div class="title">Cardiac Risk</div>
+            <div class="iconBack"><a href="#" onclick="controller.home()" title="Back">Back</a></div>
+            <div class="iconShare"><a href="#" title="Share">Share</a></div>
+            <div class="iconCapture"><a href="#" title="Capture">Capture</a></div>
+          </div>
+        </div>
+      </div>
 
     	<div data-role="content">	
-        <div id='errors' style='display: none; width: 600px; margin: 100px auto;'></div>
-        <div id='holder' style='display: none; height: 1200px; width: 780px;'>
+        <div id='holder' style='display: none; height: 1200px; width: 780px; padding-top:100px'>
         </div>
         <div id='log'></div>
     	</div><!-- /content -->
 
-    	<div data-role="footer">
-    		<h4>Page Footer</h4>
-    	</div><!-- /footer -->
     </div><!-- /page -->
   </body>
 </html>
